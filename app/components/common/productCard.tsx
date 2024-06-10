@@ -8,7 +8,7 @@ const ProductCard = ({ product }: { product: Product }) => {
                 <img src={product.image} alt={product.title} className="w-full h-48 object-cover rounded-t-lg mb-4" />
                 <div className="flex flex-col justify-between h-full">
                     <div>
-                        <h2 className="text-xl font-semibold mb-2">{product.title}</h2>
+                        <Link href={`/products/${product.id}`}><h2 className="text-xl font-semibold mb-2">{product.title}</h2> </Link>
                         <p className="text-gray-700 mb-4">{product.description.substring(0, 60)}...</p>
                     </div>
                     <div>

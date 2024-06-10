@@ -10,3 +10,11 @@ export interface Product {
     };
     title: string;
 }
+
+export interface ProductData {
+    title: string;
+    price: string;
+    description: string;
+    image: string | undefined;
+    category: string;
+}
