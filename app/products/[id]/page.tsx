@@ -7,7 +7,7 @@ const ProductPage = ({ params: { id } }: { params: { id: number } }) => {
         <div>
             <Header />
             <div className=" h-4/5">
-            <h1>We don't need it in this homework</h1>
+            <h1>We don&apost need it in this homework</h1>
             <p>But here is the id: {id}</p>
             </div>
             <Footer />
